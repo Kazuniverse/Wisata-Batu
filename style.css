@@ -230,17 +230,21 @@ nav {
   }
 
   .coverlay img {
-    height: 40vh;
+    height: 35vh;
+  }
+
+  .likar karwis img {
+    height: 30vh;
   }
 }
 
 @media (max-width: 380px) {
   .coverlay img {
-    height: 20vh;
+    height: 25vh;
   }
 
   .likar .karwis img {
-    height: 15vh;
+    height: 20vh;
   }
 }
 

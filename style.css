@@ -233,7 +233,7 @@ nav {
     height: 35vh;
   }
 
-  .likar karwis img {
+  .likar .karwis img {
     height: 25vh;
   }
 }
@@ -409,3 +409,4 @@ nav {
   background-color: rgb(50, 50, 50);
   width: 30%;
 }
+

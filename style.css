@@ -228,24 +228,6 @@ nav {
   .abohead {
     font-size: 5rem;
   }
-
-  .coverlay img {
-    height: 35vh;
-  }
-
-  .karwis img {
-    height: 15vh;
-  }
-}
-
-@media (max-width: 380px) {
-  .coverlay img {
-    height: 25vh;
-  }
-
-  .karwis img {
-    height: 10vh;
-  }
 }
 
 .karwis img {

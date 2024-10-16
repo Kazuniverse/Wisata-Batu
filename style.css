@@ -232,15 +232,24 @@ nav {
   .coverlay img {
     height: 35vh;
   }
+
+  .karwis img {
+    height: 20vh;
+  }
 }
 
 @media (max-width: 380px) {
   .coverlay img {
     height: 25vh;
   }
+
+  .karwis img {
+    height: 15vh;
+  }
 }
 
 .karwis img {
+  height: 40vh;
   transition: 0.3s ease-in-out;
 }
 

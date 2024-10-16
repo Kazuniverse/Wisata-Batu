@@ -236,11 +236,11 @@ nav {
 
 @media (max-width: 380px) {
   .coverlay img {
-    height: 25vh;
+    height: 20vh;
   }
 
   .likar .karwis img {
-    height: 25vh;
+    height: 15vh;
   }
 }
 

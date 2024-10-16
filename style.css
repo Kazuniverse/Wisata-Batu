@@ -1,0 +1,393 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  border-radius: 20px;
+  box-shadow: black 0 0 30px 5px;
+  position: fixed;
+  top: 0;
+}
+
+.member {
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.member:hover {
+  box-shadow: cyan 0 0 10px;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.nav-link {
+  font-weight: 500;
+  position: relative;
+}
+
+@media (min-width: 991px) {
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+
+  .nav-link:hover::before,
+  .nav-link:active::before {
+    width: 100%;
+    visibility: visible;
+  }
+}
+
+.offcanvas-header {
+  box-shadow: black 0 0 20px;
+}
+
+.main {
+  background-image: url(assets/paralayang\ batu\ malang.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  filter: grayscale(100%);
+  border-bottom: white 2px solid;
+  padding-top: 30vh;
+}
+
+.batu {
+  font-size: 10rem;
+  font-weight: bold;
+  font-family: "Moon Dance", cursive;
+  text-shadow: white 0 0 10px;
+}
+
+.kwis {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: black -5px 5px 0;
+}
+
+@media (max-width: 1050px) {
+  .batu {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 835px) {
+  .main {
+    background-image: url(assets/paralayang\ batu\ malang.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    filter: grayscale(100%);
+    padding-top: 20vh;
+    border-bottom: white 2px solid;
+  }
+
+  .batu {
+    font-size: 5rem;
+  }
+
+  .kwis {
+    font-size: 2rem;
+    text-shadow: black -5px 5px 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .main {
+    background-image: url(assets/paralayang\ batu\ malang.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    filter: grayscale(100%);
+    padding-top: 10vh;
+    border-bottom: white 2px solid;
+  }
+
+  .batu {
+    font-size: 4rem;
+  }
+
+  .kwis {
+    font-size: 1rem;
+    text-shadow: black -5px 5px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .main {
+    background-image: url(assets/paralayang\ batu\ malang.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    filter: grayscale(100%);
+    padding-top: 10vh;
+    border-bottom: white 2px solid;
+  }
+
+  .batu {
+    font-size: 3rem;
+  }
+
+  .kwis {
+    font-size: 1rem;
+    text-shadow: black -5px 5px 0;
+  }
+}
+
+.assibo {
+  border-radius: 20px;
+}
+
+.ago a {
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+.abohead {
+  font-size: 100px;
+}
+
+.texpen {
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+  font-size: 0.5rem;
+}
+
+.coverlay img {
+  transition: 0.3s ease-in-out;
+  height: 60vh;
+}
+
+.coverlay:hover img {
+  filter: brightness(30%);
+}
+
+.coverlay:hover .texpen {
+  opacity: 100%;
+}
+
+.texpen h5 {
+  font-size: 2rem;
+}
+
+.texpen p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 850px) {
+  .texpen h5 {
+    font-size: 2rem;
+  }
+
+  .texpen p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .texpen h5 {
+    font-size: 1.5rem;
+  }
+
+  .texpen p {
+    font-size: 0.85rem;
+  }
+
+  .abohead {
+    font-size: 5rem;
+  }
+}
+
+.karwis img {
+  height: 40vh;
+  transition: 0.3s ease-in-out;
+}
+
+.karwis {
+  transition: 0.3s ease-in-out;
+}
+
+.karwis:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 10px 0 1px gray;
+  transition: 0.3s ease-in-out;
+}
+
+.likar:hover > :not(:hover) {
+  opacity: 0.5;
+}
+
+.karwis:hover img {
+  filter: brightness(30%);
+}
+
+.libut {
+  opacity: 0;
+}
+
+.karwis:hover .libut {
+  opacity: 100%;
+}
+
+.slider {
+  height: 20vh;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(250px * 14);
+  animation: scroll 40s linear infinite;
+}
+
+.slide {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.slide img {
+  width: 100%;
+  height: 20vh;
+  border-radius: 10px;
+}
+
+.slider::before,
+.slider::after {
+  background: linear-gradient(
+    to right,
+    rgb(0, 0, 0) 30%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  content: "";
+  position: absolute;
+  width: 15%;
+  z-index: 100;
+}
+
+.slider::before {
+  left: 0;
+  right: 0;
+}
+
+.slider::after {
+  left: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(calc(-250px * 7));
+  }
+}
+
+.slider2 {
+  height: 250px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+}
+
+.slide-track2 {
+  display: flex;
+  width: calc(250px * 14);
+  animation: scroll2 40s linear infinite;
+}
+
+.slide2 {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.slide2 img {
+  width: 100%;
+  height: 20vh;
+  border-radius: 10px;
+}
+
+.slider2::before,
+.slider2::after {
+  background: linear-gradient(
+    to right,
+    rgb(0, 0, 0) 30%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  content: "";
+  position: absolute;
+  width: 15%;
+  z-index: 100;
+}
+
+.slider2::before {
+  left: 0;
+  right: 0;
+}
+
+.slider2::after {
+  left: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+@keyframes scroll2 {
+  0% {
+    transform: translate(calc(-250px * 7));
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.contact {
+  background-color: rgb(10, 10, 10);
+}
+
+.list-group-item-action:hover {
+  background-color: rgb(50, 50, 50);
+  width: 30%;
+}

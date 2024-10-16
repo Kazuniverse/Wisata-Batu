@@ -218,15 +218,23 @@ nav {
 
 @media (max-width: 550px) {
   .texpen h5 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .texpen p {
-    font-size: 0.85rem;
+    font-size: 0.7rem;
   }
 
   .abohead {
     font-size: 5rem;
+  }
+
+  .coverlay img {
+    height: 40vh;
+  }
+
+  .karwis img {
+    height: 20vh;
   }
 }
 

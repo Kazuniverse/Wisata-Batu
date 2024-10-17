@@ -8,7 +8,7 @@ html {
 }
 
 .cov img {
-    height: 40vh;
+  height: 40vh;
 }
 
 .isi {
@@ -53,4 +53,5 @@ html {
   padding: 2vh;
   border-radius: 50%;
   box-shadow: rgba(255, 255, 255, 0.5) 0 0 10px;
+  z-index: 9999;
 }

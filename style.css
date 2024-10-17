@@ -27,7 +27,7 @@ nav {
 }
 
 .member:hover {
-  box-shadow: cyan 0 0 10px;
+  box-shadow: rgb(144, 238, 144, 0.7) 0 0 20px;
 }
 
 .navbar-toggler {

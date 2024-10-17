@@ -1,0 +1,56 @@
+html {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.cov {
+  height: 80vh;
+}
+
+.cov img {
+    height: 40vh;
+}
+
+.isi {
+  height: 150vh;
+}
+
+.coverlay img {
+  height: 40vh;
+}
+
+.karwis {
+  transition: 0.3s ease-in-out;
+}
+
+.texpen h5 {
+  visibility: hidden;
+}
+
+.karwis:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 10px 0 1px gray;
+  transition: 0.3s ease-in-out;
+}
+
+.karwis:hover .texpen h5 {
+  visibility: visible;
+}
+
+.likar:hover > :not(:hover) {
+  opacity: 0.5;
+}
+
+.karwis:hover img {
+  filter: brightness(30%);
+}
+
+.back {
+  position: fixed;
+  top: 5vh;
+  left: 3vw;
+  background-color: white;
+  padding: 2vh;
+  border-radius: 50%;
+  box-shadow: rgba(255, 255, 255, 0.5) 0 0 10px;
+}
